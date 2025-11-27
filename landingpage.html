@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css"/>
+    <link rel="stylesheet" href="menu_toggle.css">
+  </head>
+  <body>
+    <!-- ENCABEZADO -->
+    <nav class="topheader">
+      <a href="#" class="logo">
+        <img height="100" width="80" src="img/log1.jpg" />
+      </a>
+       <!-- BOTÓN HAMBURGUESA -->
+      <button class="menu-toggle" aria-label="Abrir menú">
+        &#9776;
+        <!-- Ícono de hamburguesa -->
+      </button>
+      <ul class="Menu_Horizontal">
+        <li><a href="#Conocenos">Conócenos</a></li>
+        <li><a href="#Consulta">Consulta</a></li>
+        <li>
+          <a>Mi mascota</a>
+          <ul class="Menu_vertical">
+            <li>perro</li>
+            <li>gato</li>
+            <li>conejo</li>
+          </ul>
+        </li>
+        <li><a href="#Contactanos">Contáctanos</a></li>
+      </ul>
+    </nav>
+
+    <!-- SECCIÓN CONÓCENOS -->
+    <section class="seccion-conocenos" id="Conocenos">
+      <div class="div-gral-conocenos">
+        <div class="div-conoc-texto">
+          <h2>CONÓCENOS</h2>
+          <p>
+            En veterinaria tenemos un propósito: construir un mundo donde más
+            mascotas disfruten de bienestar integral. Por eso, hemos
+            desarrollado un nuevo modelo de cuidado veterinario, honesto y
+            transparente, con tecnología de vanguardia y un equipo médico
+            experto.
+          </p>
+        </div>
+        <div class="div-conoc-img">
+          <img src="img/gato.webp" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN CONÓCENOS -->
+    <section class="seccion-consulta" id="Consulta">
+      <div class="div-gral-consulta">
+        <div class="div-consul-texto">
+          <h2>CONSULTA</h2>
+          <p>
+            Las consultas médicas nos ayudan a monitorear el estado de salud de
+            tu mascota y detectar cualquier malestar o enfermedad por la que
+            pueda estar atravesando. De ser necesario, nuestro equipo
+            veterinario le brindará a tu mascota la atención y cuidados
+            oportunos para facilitar su recuperación.
+          </p>
+          <p>
+            Ademas tenemos la mejor sala de procedimientos en el Perú. Nuestra
+            sala de procedimientos está equipada con tecnología de vanguardia y
+            múltiples sistemas de control de bioseguridad, reduciendo el riesgo
+            de complicaciones post-quirúrgicas. Trabajamos con los mejores
+            cirujanos veterinarios del país para garantizar el mejor cuidado de
+            tu mascota.
+          </p>
+        </div>
+        <div class="div-consul-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/91PvIfTnzGs?si=8oDpYi7IUHpFmbi6"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!--SECCION CONTACTANOS-->
+
+
+    <section class="seccion-fomulario" id="Contactanos">
+      <div class="div-cont-formulario">
+        <h2>Formulario de Registro</h2>
+        <p>Complete todos los campos</p>
+
+        <form class="formulario">
+          <div class="campo">
+            <label for="nombre">Nombre Completo:</label>
+            <imput type="text" id="nombre" name"nombre" placeholder="Ingrese sus nombres"></imput>
+          </div>
+
+          <div class="campo"> 
+            <label for="nombre">Pais:</label>
+            <select id="pais" name="pais">
+              <option value=""> Seleccionar Pais </option>
+              <option value="Perú"> Perú </option>
+              <option value="Chile"> Chile </option>
+              <option value="Argentina"> Argentina </option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label>Preferencias:</label>
+            <ul class="lista-checkbox">
+              <li><label><input type="checkbox" name="Preferencias" value="tecnología">tecnología
+              </imput></label></li>
+
+              <li><label><input type="checkbox" name="Preferencias" value="educacion">educacion
+              </imput></label></li>
+
+              <li><label><input type="checkbox" name="Preferencias" value="negocios">negocios
+              </imput></label></li>
+
+            </ul>
+          </div>
+
+          <div class="campo">
+            <label>Sexo:</label>
+            <ul class="listas-radio">
+            <li><label><input type="radio" name="sexo" value="masculino">masculino</label></li>
+            <li><label><input type="radio" name="sexo" value="femenino">femenino</label></li>
+            </ul>
+          </div>
+
+
+          <div class="campo">
+            <button type="submit"> Enviar</button>
+
+          </div>
+
+          </form>
+    </section>
+    <!-- PIE DE PAGINA -->
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img
+              src="Imagenes/senati-logo.png"
+              alt="Logo"
+              class="footer-logo"
+            />
+            <p>SENATI</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/3.politica-privacidad.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="menu_toggle.js"></script>
+  </body>
+</html>

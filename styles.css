@@ -1,185 +1,184 @@
 .topheader {
-    position: fixed;
-    background-color: white;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0 20px;
-  }
-  .Menu_Horizontal {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .Menu_Horizontal li {
-    display: block;
-    padding: 15px 20px;
-    color: blue;
-    font-size: 20px;
-  }
-  
-  .Menu_Horizontal li:hover {
-    color: red;
-  }
-  
-  .Menu_vertical {
-    padding: 0;
-    position: absolute;
-    display: none;
-    width: 180px;
-    background-color: white;
-    list-style: none;
-  }
-  
-  .Menu_Horizontal li:hover .Menu_vertical {
-    display: block;
-  }
-  
-  .Menu_vertical li {
-    font-size: 20px;
-    color: black;
-  }
-  .Menu_vertical li:hover {
-    color: blue;
-  }
-  
-  .Menu_vertical li:hover {
-    color: blue;
-  }
-  
-  .seccion-conocenos {
-    padding: 60px 20px;
-    background-color: white;
-  }
-  
-  .div-gral-conocenos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    gap: 40px;
-  }
-  
-  .div-conoc-texto {
-    flex: 1;
-  }
-  
-  .div-conoc-texto h2 {
-    color: black;
-    margin-bottom: 15px;
-  }
-  
-  .div-conoc-texto p {
-    color: black;
-    line-height: 1.6;
-  }
-  
-  .div-conoc-img {
-    flex: 1;
-  }
-  
-  .div-conoc-img img {
-    width: 100%;
-    max-width: 500px;
-  }
-  
-  .seccion-consulta {
-    padding: 60px 20px;
-    background-color: white;
-  }
-  
-  .div-gral-consulta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    gap: 200px;
-  }
-  
-  .div-consul-texto {
-    flex: 1;
-  }
-  
-  .div-consul-texto h2 {
-    color: black;
-    margin-bottom: 15px;
-  }
-  .div-consul-texto p {
-    color: black;
-    line-height: 1.6;
-  }
-  
-  .div-consul-video iframe {
-    width: 100%;
-    max-width: 500px;
-  }
-  
-  .seccion-fomulario {
-    background-color: white;
-    padding: 40px;
-    border: 3px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-  }
-  
-  .div-cont-formulario {
-    background-color: blue;
-    padding: 30px;
-    border: 2px solid red;
-    border-radius: 10px;
-    width: 100%;
-    max-width: 500px;
-    color:white;
-  }
-  
-  .campo{
-    background-color: skyblue;
-    border: 1.5px;
-    padding: 15px;
-    margin bottom: 15px;
-  }
-  
-  .formulario label{
-    display: block;
-    font-weight: 600;
-    margin-bottom: 8px;
-    color: blue;
-  }
-  
-  input [type=text],
-  select{
-    width: 100%;
-    padding: 10px;
-    border: 1px solid brown;
-    border-radius: 5px;
-  }
-  
-  .lista-checkbox;
-  .listas-radio{
-    list-style: none;
-    padding: 8px;
-    border: 1px;
-    margin: 0;
-    background-color: blue;
-    border radius: 8px;
-  }
-  
-  .lista-checkbox li;
-  .listas-radio li{
-    margin-bottom: 8px;
-  }
-  
-  button{
-    background-color: burlywood;
-    color: black;
-    border: 1.5px solid black;
-    padding: 10px 20px;
-    border-radius: 8px;
-    cursor: pointer;
-  }
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+.Menu_Horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.Menu_Horizontal li {
+  display: block;
+  padding: 15px 20px;
+  color: blue;
+  font-size: 20px;
+}
+
+.Menu_Horizontal li:hover {
+  color: red;
+}
+
+.Menu_vertical {
+  padding: 0;
+  position: absolute;
+  display: none;
+  width: 180px;
+  background-color: white;
+  list-style: none;
+}
+
+.Menu_Horizontal li:hover .Menu_vertical {
+  display: block;
+}
+
+.Menu_vertical li {
+  font-size: 20px;
+  color: black;
+}
+.Menu_vertical li:hover {
+  color: blue;
+}
+
+.Menu_vertical li:hover {
+  color: blue;
+}
+
+.seccion-conocenos {
+  padding: 60px 20px;
+  background-color: white;
+}
+
+.div-gral-conocenos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.div-conoc-texto {
+  flex: 1;
+}
+
+.div-conoc-texto h2 {
+  color: black;
+  margin-bottom: 15px;
+}
+
+.div-conoc-texto p {
+  color: black;
+  line-height: 1.6;
+}
+
+.div-conoc-img {
+  flex: 1;
+}
+
+.div-conoc-img img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.seccion-consulta {
+  padding: 60px 20px;
+  background-color: white;
+}
+
+.div-gral-consulta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 200px;
+}
+
+.div-consul-texto {
+  flex: 1;
+}
+
+.div-consul-texto h2 {
+  color: black;
+  margin-bottom: 15px;
+}
+.div-consul-texto p {
+  color: black;
+  line-height: 1.6;
+}
+
+.div-consul-video iframe {
+  width: 100%;
+  max-width: 500px;
+}
+
+.seccion-fomulario {
+  background-color: white;
+  padding: 40px;
+  border: 3px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.div-cont-formulario {
+  background-color: blue;
+  padding: 30px;
+  border: 2px solid red;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  color: white;
+}
+
+.campo {
+  background-color: skyblue;
+  border: 1.5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.formulario label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: blue;
+}
+
+input [type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid brown;
+  border-radius: 5px;
+}
+
+.lista-checkbox,
+.listas-radio {
+  list-style: none;
+  padding: 8px;
+  border: 1px;
+  margin: 0;
+  background-color: blue;
+  border-radius: 8px;
+}
+
+.lista-checkbox lim .listas-radio li {
+  margin-bottom: 8px;
+}
+
+button {
+  background-color: burlywood;
+  color: black;
+  border: 1.5px solid black;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
